@@ -1,0 +1,198 @@
+/*******************TAG SELECTORS*******************/
+body {
+  color: #40515e;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  font-size: 5rem;
+  margin: 0 auto 0 auto;
+  font-family: 'Shadows Into Light', cursive;
+  color: #66bfbf;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66bfbf;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0 auto 0 auto;
+  color: #11999e;
+}
+
+p {
+  margin-top: 0;
+}
+
+hr {
+
+  border: dotted #eaf6f6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 70px auto;
+}
+
+a {
+    color: #11999e;
+      font-family: 'Montserrat', sans-serif;
+      /* margin: 10px 20px; */
+      text-decoration: none;
+}
+
+a:hover {
+  color: #b8e0e0;
+}
+
+/*******************CLASS SELECTORS*******************/
+.bottomContainer {
+  background-color: #66BFBF;
+  position: relative;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.topContainer {
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.profile {
+  padding-top: 100px;
+  text-align: center;
+  line-height: 2;
+  margin: auto auto 100px auto;
+  width: 75%;
+}
+
+.middleContainer {}
+
+  .contactMe {
+    margin-top: 0;
+  }
+
+.bottomContainer {
+  background-color: #66bfbf;
+  margin-top: 40px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.topCloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.bottomCloud {
+  position: absolute;
+  left: 250px;
+}
+
+.title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  margin: 0 auto 0 auto;
+  color: #66bfbf;
+}
+
+.skillRow {
+  width: 75%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.shiftRight {
+  text-align: right;
+}
+
+.webAppDevImg {
+  float: left;
+  margin-right: 30px;
+}
+
+.softDevImg {
+  float: right;
+  margin-left: 30px;
+}
+
+.appleTeachImg {
+  float: left;
+  margin-right: 30px;
+}
+
+.appsImg {
+  float: right;
+  margin-left: 30px;
+}
+
+.googleAppsImg {
+  float: left;
+  margin-right: 30px;
+}
+
+.footerLink {
+  color: #11999e;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  margin: auto 20px auto 20px;
+}
+
+.copyright {
+  color: #eaf6f6;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.75rem;
+  margin: 20px 20px auto 20px;
+}
+
+.credits {
+  color: #11999e;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.8rem;
+  background-color: #66BFBF;
+  margin: 0;
+}
+
+.contactParagraph {
+margin: 20px 20px 40px 20px;
+}
+
+.butn {
+margin-top: 40px;
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);/* Chrome10+,Safari5.1+ */
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);/* FF3.6+ */
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e); /* IE10+ */
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);/* Opera 11.10+ */
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.butn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+/*******************ID SELECTORS*******************/
